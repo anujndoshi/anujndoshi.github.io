@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>{{ page.title }} | {{ site.title }}</title>
+  <!-- If you want custom CSS, link it here, e.g.: -->
+  <!-- <link rel="stylesheet" href="/assets/css/style.css"> -->
+</head>
+<body>
+  <header>
+    <h1>{{ site.title }}</h1>
+    <nav>
+      <ul>
+        <li><a href="{{ '/' | relative_url }}">Home</a></li>
+        <!-- <li><a href="{{ '/projects' | relative_url }}">Projects</a></li> -->
+        <li><a href="{{ '/kitchen' | relative_url }}">Kitchen</a></li>
+        <!-- <li><a href="{{ '/videos' | relative_url }}">Videos</a></li> -->
+        <!-- <li><a href="{{ '/gallery' | relative_url }}">Gallery</a></li> -->
+      </ul>
+    </nav>
+  </header>
+  
+  <main>
+    {{ content }}
+  </main>
+
+  <footer>
+    <p>&copy; {{ "now" | date: "%Y" }} Your Name</p>
+  </footer>
+</body>
+</html>
