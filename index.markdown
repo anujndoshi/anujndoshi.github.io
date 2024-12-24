@@ -7,7 +7,7 @@ title: Home
 ---
 
 
-# Anuj Doshi
+<!-- # Anuj Doshi -->
 
 Hello! I am Anuj Doshi. I am an AI researcher, engineer and roboticist.
 
