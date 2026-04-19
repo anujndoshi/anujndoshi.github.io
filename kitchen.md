@@ -1,22 +1,26 @@
 ---
-layout: defaul
-title: "Kitchen"
+layout: page
+title: Experiments
+permalink: /kitchen/
+eyebrow: Experiments
+lede: Published notebooks, prototypes, and side explorations that are useful enough to keep in public.
 ---
 
-# The Kitchen 
+Notebook-style experiments, prototypes, and technical side work.
 
-Checkout what I am cookin. Majorly new experiments, notebooks, demos, assemblies, stuff. I try to use all things open-source here. Credits given where due, if you see something that's yours and I have not given you the proper credits please email me.
+## Published
 
-- [RAG over Pokemon API to make a pokedex.](/kitchen/RAG_Pokedex.ipynb)[](assets/pokeball.png)
-- The LoRA and QLoRA of LLMs 🤖.
-- Vision Transformers: 101 👁️. 
-- Microscopic object detection: 101 🔬.
-- High speed object detection 🚀.
-- JEPA: Welcome to the future! ⚡.
-- Workin out double inverted pendulum @OpenAI Gym: Deep Q-Networks 🎮. 
-- Whisper on Mac: YES! 🗣️.
-- Object detection: 101 🎯.
-- Anchor Boxes in Object Detection: What, How, and Why? 📦.
-- Self-Supervised learning: Constrastive Pre-training! 🔍.
-- Object detection on EDGE! (NVIDIA-Jetson) 🏎️.
-- Multimodal AI: 101 🌐.
+- [RAG Pokedex](/kitchen/RAG_Pokedex.html): a notebook-style walkthrough of retrieval-augmented generation over a Pokemon knowledge source.
+
+## In progress
+
+I also have working material around:
+
+- vision transformers,
+- LoRA and QLoRA,
+- JEPA,
+- microscopic and high-speed object detection,
+- pose estimation,
+- and other small experiments that still need cleanup before they belong in the public archive.
+
+More will be added here over time.
